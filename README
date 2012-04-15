@@ -6,17 +6,17 @@ http://java.net/projects/substance/
 
 -------------------------------------------------------------------------------
 SubstanceDemo:
-使用substance.jar来修改java Swing界面的一个简单的应用示例。
+使用substance5.2.jar来修改java Swing界面的一个简单的应用示例。
 
 程序结构:
-src		   ：源文件目录
+src		   	：源文件目录
    ---com
-      ---Demo.java ：主程序，绘制GUI界面
-      ---Skin.java ：皮肤类，从substance中抽取出11中皮肤，每一种皮肤对应一个static方法，使用Skin类直		     接调用即可改变程序主题样式。	
-      ---About.java：关于程序
-   ---picture	   ：背景图片放在此文件夹下
-lib		   ：库文件存放目录
-   ---substance5.2.jar：导入该jar方能实现皮肤更换。
+      ---Demo.java 	：主程序，绘制GUI界面
+      ---Skins.java 	：皮肤类，从substance中抽取出11中皮肤，每一种皮肤对应一个static方法，使用Skin类直		     接调用即可改变程序主题样式。	
+      ---About.java	：关于程序
+   ---picture	   	：背景图片放在此文件夹下
+lib		   	：库文件存放目录
+   ---substance5.2.jar	：导入该jar方能实现皮肤更换。
 -------------------------------------------------------------------------------
 
 使用说明:
